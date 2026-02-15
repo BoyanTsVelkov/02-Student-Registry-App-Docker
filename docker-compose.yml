@@ -3,6 +3,6 @@ services:
   app:
     image: boyanvelkov/students_demo:1.0.0
     ports:
-      - "3030:3030" # Map port 3030 on the host to port 3030 in the container
+      - "8082:8082" # Map port 8082 on the host to port 8082 in the container
     environment:
       - NODE_ENV=production
